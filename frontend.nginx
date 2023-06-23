@@ -13,10 +13,10 @@
 
 
 server {
-    listen 80;
-	listen [::]:80;
+    listen 81;
+	listen [::]:81;
     server_name frontfull.abrahamlizama.me;
-    root /root/frontend;
+    root /home/root/frontend;
     index index.html;
     location / {
         try_files $uri $uri/ =404;
